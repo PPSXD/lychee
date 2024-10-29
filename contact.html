@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="autor" content="Chung Chi Ho, Student ID: 12158168">
+<title>Lychee Café - Organic, Locally-Sourced and Sustainable Restaurant in Sai Yin Pun, Hong Kong</title>
+<link href="global.css" rel="stylesheet" type="text/css">
+<link href="menu.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="https://lab.ouhk.edu.hk/its234/examples/u4/act4-9/favicon.ico" type="image/x-icon">
+<style>
+    h2 {
+color: #E7E3B5;
+font-size:2em;
+margin-top: 25px;
+    }
+    form.contact {   
+  padding: 0;   
+  margin: 0;   
+  margin-top: -15px;
+  line-height: 150%;
+}
+
+form.contact label.fixedwidth {   
+  width: 15em;
+  float: left; 
+  font-weight: bold;
+}
+
+form.contact .buttonarea input {   
+  font-weight: bold;   
+  padding: 5px;   
+  border: 1px solid white; 
+  margin-right: 5px;
+}
+
+form.contact .buttonarea {   
+  text-align: center;     
+}
+
+.form_required {
+	color: red;
+	margin-right: 8px;
+}
+
+.smalltext {
+	font-size: small;
+}
+</style>
+</head>
+
+<body id="Top">
+  <!--Begin of Container div-->
+<div id="Container">
+  <!--Begin of Header div-->
+  <div id="Header">
+    <h1><img src="lrg-logo-bg.jpg" alt="Lychee Cafe Large Logo" height="138" width="427"></h1>
+  </div>
+  <div class="nav-content">
+    <nav>
+      <ul>  
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menus</a>
+          <ul>
+            <li><a href="brunch-menu.html">Brunch</a></li>
+            <li><a href="lunch-menu.html">Lunch</a></li>
+            <li><a href="dinner-menu.html">Dinner</a></li>
+          </ul>
+        </li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="gallery.html">Gallery</a>
+          <ul>
+            <li><a href="photo-gallery.html">Photos</a></li>
+            <li><a href="video-gallery.html">Videos</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>    
+        </ul>
+      </nav>
+ </div>
+  <!-- end of Header div -->
+   <!--Begin of Maincontent div-->
+   
+   <h2>Contact Us</h2>
+   <form action="thankyou.html" method="get" class="contact">	
+    <p><label for="name" class="fixedwidth">Name: <span class="form_required">*</span></label><input name="name" id="name"  maxlength="20" size="40" type="text"></p>
+	  <p><label for="email" class="fixedwidth">Email: <span class="form_required">*</span></label><input name="email" id="email" maxlength="35" size="40" type="email"></p>
+	  <p><label for="phone" class="fixedwidth">Phone: <span class="form_required">*</span></label><input name="phone" id="phone"  maxlength="15" size="40" type="text"></p>
+	  <p><label for="subject" class="fixedwidth">Subject: <span class="form_required">*</span></label>
+		<select name="subject" id="subject">
+		<option selected="selected">General inquiry</option>
+		<option>Restaurant reservation</option>
+		<option>Venue hire</option>
+		<option>Holiday bookings</option>
+		</select>
+	</p>
+	<p><label for="comments" class="fixedwidth">Comments / Inquiry: <span class="form_required">*</span></label> 
+	<textarea name="comments" id="comments" rows="10" cols="60"></textarea></p>
+	<p><label class="fixedwidth">Preferred contact method: </label> 	
+    <input type="radio" name="contact-method" id="contact-email" value="email"><label for="contact-email">Email</label> 
+	<input type="radio" name="contact-method" id="contact-phone" value="phone"><label for="contact-phone">Phone</label> 
+	</p>
+    <p class="smalltext">We may occassionally send you information regarding events and promotions at our restaurant. Please confirm if you are happy for us to do this.</p>   
+    <input type="checkbox" name="accept-communications" id="accept-communications">
+    <label for="accept-communications" class="smalltext">I am happy to hear about events and promotions from Lychee Cafe. Keep me posted !</label>
+   <p class="buttonarea">
+	<input type="submit" value="Submit">
+	<input type="reset" value="Clear All Entries">
+    </p>
+	</form>
+  <div id="Maincontent">    
+    <p><a href="contact.html" title="Back to Top">Back to Top</a></p>
+   
+  </div>
+  <img src="wcag2.1AA-v.gif" alt="wcag2.1AA-v" style="float: right; margin-top: -40px;">
+    <!-- end of Maincontent div -->
+</div>
+<!-- end of Container div -->
+
+
+</body></html>

@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/*set the text font, text color and page background color of the body element, also set the width and center it within the browser display by setting the margin-right and margin-left properties to auto*/
+body {
+
+        font-family: Arial, Helvetica, sans-serif;
+        color: #000;
+        /*background-color: #E7E3B5;*/
+        background-image: url("wood8.jpg");
+        width: 857px;
+        margin-right: auto;
+        margin-left: auto;
+}
+
+/*set the background color of the Container div to a different color from the body, also add a solid border 10 pixels wide around it.*/
+#Container {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 15px;
+        background-color: #81885B;
+        border: 10px solid #8B4513;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+}
+
+.nav-content  {
+        padding: 0;
+        margin-left: -40px;
+        list-style-type: none;
+        display: inline-block;
+        position: relative;
+}
+
+.nav-content li {
+        display: block;
+        float: left;
+        height: auto;
+        width: 154.2px;
+        margin-right: 5px;
+}
+
+.nav-content li li {
+        float: none;
+        width: 100px;
+}
+
+.nav-content a {
+        margin-right: 5px;
+        color: #E7E3B5;
+        background-color: #8B4513;
+        padding: 5px 25.5px 5px 33.5px;
+        text-decoration: none;
+        display: block;
+        width: 100px;
+        text-align: center;
+}
+
+.nav-content a:hover {
+        color: #8B4513;
+        background-color: #FFEFDB;
+        font-weight: bold;
+}
+
+.nav-content nav ul ul {
+        margin-top: 2px;
+        display: none;
+        height: auto;
+        width: 160px;
+        margin-left: -39.5px;
+}
+
+.nav-content nav ul li:hover>ul {
+        position: absolute;
+        display: block;
+        float: none;
+        width: 100%
+}
+
+
+h2 {
+        font-size: 2em;
+        color: #E7E3B5;
+}

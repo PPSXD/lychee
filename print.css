@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* Change the font to a serif font which is easier to read on paper. Remove all page margins so the text takes up the whole page width when printed. */
+body {
+        color: #000000;
+        background: #ffffff;
+        font-family: “Times New Roman”, Times, serif;
+        font-size: 12pt;
+        margin: 0;
+}
+
+/* Prevent the navigation menu from being printed. */
+#mainnav {
+        display: none;
+}
+
+/* Display all headings in black */
+h1, h2, h3, h4, h5 {
+        color: #000000;
+}
+
+/* Display a solid border below the company header graphic to separate it from the rest of the page */
+#header {
+        border-bottom: 1px solid #000;
+}
+
+/* Prevent the border from being printed. */
+#container {
+        border: 0;
+}
+ 
